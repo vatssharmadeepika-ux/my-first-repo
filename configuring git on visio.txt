@@ -1,0 +1,32 @@
+In VS Code, the terminal is just your system’s command-line (PowerShell, Command Prompt, or bash).
+So the command to **list files** depends on your OS:
+
+* **Windows (PowerShell / Command Prompt):**
+
+```bash
+dir
+```
+
+* **Linux / macOS (bash, zsh, etc.):**
+
+```bash
+ls
+```
+
+👉 For more details:
+
+* To list all files (including hidden ones):
+
+  ```bash
+  ls -a   # Linux/macOS
+  dir /a  # Windows
+  ```
+
+* To list with file details (size, permissions, modified date):
+
+  ```bash
+  ls -l   # Linux/macOS
+  dir     # Windows already shows details
+  ```
+
+Do you want me to also show you **how to open the VS Code terminal in a specific project folder** so you can run these commands directly there?
